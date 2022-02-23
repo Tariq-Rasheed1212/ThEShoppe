@@ -8,11 +8,12 @@ namespace ThEShoppe.Client.Services.ProductService
 {
     public class ProductService : IProductService
     {
-        public List<Product> Product { get; set; } = new List<Product>();
+        public List<Product> Products { get; set; } = new List<Product>();
+       
 
         public void LoadProducts()
         {
-            List<Product> products = new List<Product> {
+            Products = new List<Product> {
         new Product {
             Id = 1,
             CategoryId = 1,

@@ -8,7 +8,7 @@ namespace ThEShoppe.Client.Services.ProductService
 {
     interface IProductService
     {
-        List<Product> Product { get; set; }
+        List<Product> Products { get; set; }
         void LoadProducts();
     }
 }
