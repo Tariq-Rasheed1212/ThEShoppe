@@ -38,9 +38,23 @@ a, .btn-link {
     transition: transform .2s;
 }
 
+.media-img-big {
+    max-height: 500px;
+    max-width: 500px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: transform .2s;
+}
+
 .media-img-wrapper {
     width: 200px;
     height: 200px;
+    text-align: center;
+}
+
+.media-img-big-wrapper {
+    width: 500px;
+    height: 500px;
     text-align: center;
 }
 
