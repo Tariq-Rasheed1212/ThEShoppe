@@ -87,3 +87,18 @@ a, .btn-link {
         right: 0.75rem;
         top: 0.5rem;
     }
+
+@media (max-width: 1023.90px) {
+    .media{
+        flex-direction: column;
+    }
+    .media.img.media-img-big-wrapper, .media-img-wrapper{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .media-img-big{
+        max-width: 300px;
+    }
+} 
