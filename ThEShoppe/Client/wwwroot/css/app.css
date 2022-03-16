@@ -88,11 +88,11 @@ a, .btn-link {
         top: 0.5rem;
     }
 
-@media (max-width: 1023.90px) {
+@media (max-width: 1023.98px) {
     .media{
         flex-direction: column;
     }
-    .media.img.media-img-big-wrapper, .media-img-wrapper{
+    .media-img-big-wrapper, .media-img-wrapper{
         width: 100%;
         height: auto;
         text-align: center;

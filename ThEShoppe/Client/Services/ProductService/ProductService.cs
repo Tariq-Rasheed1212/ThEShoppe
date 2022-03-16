@@ -16,7 +16,7 @@ namespace ThEShoppe.Client.Services.ProductService
             Products = new List<Product> {
         new Product {
             Id = 1,
-            CategoryId = 1,
+            CategoryId = 2,
             Title = "The Hitchhiker's Guide to the Galaxy",
             Description = "2005 (Sci-Fi, Comedy) Mere seconds before the Earth is to be demolished by an alien construction crew, journeyman Arthur Dent is swept off the planet by his friend Ford Prefect, a researcher penning a new edition of 'The Hitchhiker's Guide to the Galaxy.'",
             Image = "http://3.bp.blogspot.com/-beczHRK7TFw/UWTsjPEiy9I/AAAAAAAAHMI/HablT3KwK18/s1600/the-hitchhikers-guide-to-the-galaxy-50bfe66186fa0.jpg",
