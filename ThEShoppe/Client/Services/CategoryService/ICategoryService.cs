@@ -8,8 +8,7 @@ namespace ThEShoppe.Client.Services.CategoryService
 {
     interface ICategoryService
     {
-         List<Category> Categories { get; set; }
-
-        void LoadCategories();
-    }
+        List<Category> Categories { get; set; }
+        Task LoadCategories();
+    }  
 }
