@@ -26,3 +26,9 @@ namespace ThEShoppe.Client.Services.CategoryService
     }
 }
 
+//{
+//new Category {  new Category { Id = 1, Name = "Drama", Url = "drama", Icon = "camera-slr" },
+               // new Category { Id = 2, Name = "Comedy", Url = "comedy", Icon = "camera-slr" },
+                //new Category { Id = 5, Name = "Action", Url = "action", Icon = "camera-slr" },
+               // new Category { Id = 7, Name = "Romantic", Url = "romantic", Icon = "camera-slr" },
+          //  };
